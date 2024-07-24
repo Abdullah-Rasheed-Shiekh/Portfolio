@@ -1,15 +1,4 @@
-      /* TABLE OF CONTENTS */
-/* ------------------
-1. General
-2. Navbar
-3. Banner
-4. About
-5. Services
-6. Portfolio
-7. Blog
-8. Contact
-9. Footer
--------------------- */
+
 
 /* 1 General */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
@@ -47,7 +36,7 @@
 body {
     font-family: var(--secondary-font);
     width: 100%;
-    background-image:url(/Portfolio/images/Intro/5293470.jpg);
+    background-image:url('images/Intro/5293470.jpg');
 }
 
 a {
@@ -167,7 +156,7 @@ p {
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
-    background: url(/Portfolio/images/Intro/5293470.jpg);
+    background: url('images/Intro/5293470.jpg');
     height: 7rem;
 }
 
@@ -274,10 +263,7 @@ p {
     /* margin-top: 20%; */
 }
 
-/* .about_wrapper .single-logo-item:hover {
-    /* border: 0.0625rem solid transparent; */
-    /* box-shadow: 0 0.5rem 1.875rem rgb(118 85 225 / 15%); */
-/* }*/ 
+
 
 .about_wrapper .client-info {
     padding: 1.5625rem 1.875rem;
